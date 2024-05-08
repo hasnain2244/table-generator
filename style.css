@@ -1,0 +1,32 @@
+* {
+    font-family: cursive;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(153, 210, 210, 0.659);
+}
+.empty-area {
+    height: 200px;
+    overflow-y: scroll;
+
+}
+input::placeholder {
+    padding-right: 30px;
+    padding-left: 14px;
+}
+.form {
+    background-image: url(image2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input:focus {
+    color: black;
+}
+@media screen and (max-width:545px){
+    #table-number {
+        display: flex;
+    }
+}
